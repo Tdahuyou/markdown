@@ -10,9 +10,13 @@
   - Writing on GitHub
   - You can structure the information shared on GitHub with various formatting options.
 
-## 💻 demo - Supported color models
+## 📒 notes - github 对传统的 markdown 做了一些扩展
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+- 以本节的俩 demo 为例，如果在本地展示的话，效果如下：
+  - ![](md-imgs/2024-10-16-15-20-36.png)
+  - 这使用的是 VSCode 中的 markdown preview enhanced 插件来预览 markdown 的效果截图。
+- 如果上传到 github 上，展示效果如下：
+  - ![](md-imgs/2024-10-16-15-19-48.png)
 
 ## 💻 demo - Using emojis
 
