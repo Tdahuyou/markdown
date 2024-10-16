@@ -9,6 +9,10 @@
 - https://docs.github.com/en/get-started/writing-on-github
   - Writing on GitHub
   - You can structure the information shared on GitHub with various formatting options.
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+  - Create sophisticated formatting for your prose and code on GitHub with simple syntax.
+    - sophisticated adj. 复杂的
+    - prose n. 乏味的话；adj. 单调的，乏味的
 
 ## 📒 notes - github 对传统的 markdown 做了一些扩展
 
