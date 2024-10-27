@@ -43,7 +43,7 @@
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-## 🤖 ai - `- https://docs.github.com/en/get-started/writing-on-github`
+## 🤖 AI - `- https://docs.github.com/en/get-started/writing-on-github`
 
 ```
 - https://docs.github.com/en/get-started/writing-on-github
