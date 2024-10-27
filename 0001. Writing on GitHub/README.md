@@ -1,8 +1,7 @@
-# 0001. Writing on GitHub
+# [0001. Writing on GitHub](https://github.com/Tdahuyou/markdown/tree/main/0001.%20Writing%20on%20GitHub)
 
-## 📝 summary
-
-- GitHub 对 Markdown 进行了扩展，有些写法是 GitHub 上特定支持的，在本地编写 markdown 时也许看不到效果。
+- 📝 summary
+  - GitHub 对 Markdown 进行了扩展，有些写法是 GitHub 上特定支持的，在本地编写 markdown 时也许看不到效果。
 
 ## 🔗 links
 
