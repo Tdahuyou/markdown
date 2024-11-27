@@ -4,8 +4,8 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 🔗 links](#2--links)
-- [3. 📒 notes - 认识 mermaid](#3--notes---认识-mermaid)
-- [4. 📒 notes - npm 包](#4--notes---npm-包)
+- [3. 📒 认识 mermaid](#3--认识-mermaid)
+- [4. 📒 npm 包](#4--npm-包)
 - [5. 📒 notes - CLI 工具](#5--notes---cli-工具)
 - [6. 💻 demo - 在网页中引入 mermaid](#6--demo---在网页中引入-mermaid)
 <!-- endregion:toc -->
@@ -20,7 +20,7 @@
 - https://github.com/mermaid-js/mermaid
   - github mermaid.js 源码仓库。
 
-## 3. 📒 notes - 认识 mermaid
+## 3. 📒 认识 mermaid
 
 - **Mermaid 是一个用于生成图表和流程图的 JavaScript 库**。它允许你使用类似于 Markdown 的简单文本语法来定义图表，然后将其渲染成 **SVG 图形**。
 - Mermaid 支持多种图表类型，包括：
@@ -86,7 +86,7 @@ mindmap
   节点 3
 ```
 
-## 4. 📒 notes - npm 包
+## 4. 📒 npm 包
 
 - 如果使用的是 Node.js 项目，可以通过 npm 安装 Mermaid：
 

@@ -4,7 +4,7 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 🔗 links](#2--links)
-- [3. 📒 notes - github 对传统的 markdown 做了一些扩展](#3--notes---github-对传统的-markdown-做了一些扩展)
+- [3. github 对传统的 markdown 做了一些扩展](#3-github-对传统的-markdown-做了一些扩展)
 - [4. 💻 demo - Using emojis](#4--demo---using-emojis)
 - [5. 💻 demo - Alerts](#5--demo---alerts)
 - [6. 🤖 AI - `- https://docs.github.com/en/get-started/writing-on-github`](#6--ai-----https//docsgithubcom/en/get-started/writing-on-github)
@@ -24,7 +24,7 @@
     - sophisticated adj. 复杂的
     - prose n. 乏味的话；adj. 单调的，乏味的
 
-## 3. 📒 notes - github 对传统的 markdown 做了一些扩展
+## 3. github 对传统的 markdown 做了一些扩展
 
 - 以本节的俩 demo 为例，如果在本地展示的话，效果如下：
   - ![](md-imgs/2024-10-16-15-20-36.png)

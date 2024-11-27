@@ -4,18 +4,18 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 🔗 links](#2--links)
-- [3. 📒 notes - 缩进语法](#3--notes---缩进语法)
-- [4. 📒 notes - 节点形状 - 默认形状节点](#4--notes---节点形状---默认形状节点)
-- [5. 📒 notes - 节点形状 - 矩形节点](#5--notes---节点形状---矩形节点)
-- [6. 📒 notes - 节点形状 - 圆角矩形节点](#6--notes---节点形状---圆角矩形节点)
-- [7. 📒 notes - 节点形状 - 圆形节点](#7--notes---节点形状---圆形节点)
-- [8. 📒 notes - 节点形状 - 爆炸 💥 节点](#8--notes---节点形状---爆炸--节点)
-- [9. 📒 notes - 节点形状 - 云朵 ☁️ 节点](#9--notes---节点形状---云朵-☁-节点)
-- [10. 📒 notes - 节点形状 - 六角形节点](#10--notes---节点形状---六角形节点)
-- [11. 📒 notes - 图标语法 - `::icon()` - 注：不好使](#11--notes---图标语法---icon()---注不好使)
-- [12. 📒 notes - 图标的替代方案 - 使用 emoji](#12--notes---图标的替代方案---使用-emoji)
-- [13. 📒 notes - 样式语法 - `:::className` - 注：不好使](#13--notes---样式语法---classname---注不好使)
-- [14. 📒 notes - Markdown Strings 特性](#14--notes---markdown-strings-特性)
+- [3. 📒 缩进语法](#3--缩进语法)
+- [4. 📒 节点形状 - 默认形状节点](#4--节点形状---默认形状节点)
+- [5. 📒 节点形状 - 矩形节点](#5--节点形状---矩形节点)
+- [6. 📒 节点形状 - 圆角矩形节点](#6--节点形状---圆角矩形节点)
+- [7. 📒 节点形状 - 圆形节点](#7--节点形状---圆形节点)
+- [8. 📒 节点形状 - 爆炸 💥 节点](#8--节点形状---爆炸--节点)
+- [9. 📒 节点形状 - 云朵 ☁️ 节点](#9--节点形状---云朵-☁-节点)
+- [10. 📒 节点形状 - 六角形节点](#10--节点形状---六角形节点)
+- [11. 📒 图标语法 - `::icon()` - 注：不好使](#11--图标语法---icon()---注不好使)
+- [12. 📒 图标的替代方案 - 使用 emoji](#12--图标的替代方案---使用-emoji)
+- [13. 📒 样式语法 - `:::className` - 注：不好使](#13--样式语法---classname---注不好使)
+- [14. 📒 Markdown Strings 特性](#14--markdown-strings-特性)
 - [15. 💻 demo - 绘制思维导图测试](#15--demo---绘制思维导图测试)
 <!-- endregion:toc -->
 
@@ -39,7 +39,7 @@
 - https://pictogrammers.com/library/mdi/
   - Material Design Icons 图标库
 
-## 3. 📒 notes - 缩进语法
+## 3. 📒 缩进语法
 
 - 缩进语法
 
@@ -155,7 +155,7 @@ mindmap
 ```
 
 
-## 4. 📒 notes - 节点形状 - 默认形状节点
+## 4. 📒 节点形状 - 默认形状节点
 
 ```
 mindmap
@@ -166,7 +166,7 @@ mindmap
   I am the default shape
 ```
 
-## 5. 📒 notes - 节点形状 - 矩形节点
+## 5. 📒 节点形状 - 矩形节点
 
 ```
 mindmap
@@ -189,7 +189,7 @@ mindmap
   [I am a square]
 ```
 
-## 6. 📒 notes - 节点形状 - 圆角矩形节点
+## 6. 📒 节点形状 - 圆角矩形节点
 
 ```
 mindmap
@@ -200,7 +200,7 @@ mindmap
   (I am a rounded square)
 ```
 
-## 7. 📒 notes - 节点形状 - 圆形节点
+## 7. 📒 节点形状 - 圆形节点
 
 ```
 mindmap
@@ -211,7 +211,7 @@ mindmap
   ((I am a circle))
 ```
 
-## 8. 📒 notes - 节点形状 - 爆炸 💥 节点
+## 8. 📒 节点形状 - 爆炸 💥 节点
 
 ```
 mindmap
@@ -222,7 +222,7 @@ mindmap
   ))I am a bang((
 ```
 
-## 9. 📒 notes - 节点形状 - 云朵 ☁️ 节点
+## 9. 📒 节点形状 - 云朵 ☁️ 节点
 
 ```
 mindmap
@@ -233,7 +233,7 @@ mindmap
   )I am a cloud(
 ```
 
-## 10. 📒 notes - 节点形状 - 六角形节点
+## 10. 📒 节点形状 - 六角形节点
 
 ```
 mindmap
@@ -244,7 +244,7 @@ mindmap
   {{I am a hexagon}}
 ```
 
-## 11. 📒 notes - 图标语法 - `::icon()` - 注：不好使
+## 11. 📒 图标语法 - `::icon()` - 注：不好使
 
 > As with flowcharts you can add icons to your nodes but with an updated syntax. The styling for the font based icons are added during the integration so that they are available for the web page. This is not something a diagram author can do but has to be done with the site administrator or the integrator. Once the icon fonts are in place you add them to the mind map nodes using the ::icon() syntax. You place the classes for the icon within the parenthesis like in the following example where icons for material design and Font Awesome 5 are displayed. The intention is that this approach should be used for all diagrams supporting icons. Experimental feature: This wider scope is also the reason Mindmaps are experimental as this syntax and approach could change.
 > from: mermaid 官方文档。
@@ -310,7 +310,7 @@ mindmap
     ::icon(mdi mdi-skull-outline)
 ```
 
-## 12. 📒 notes - 图标的替代方案 - 使用 emoji
+## 12. 📒 图标的替代方案 - 使用 emoji
 
 ```
 mindmap
@@ -323,7 +323,7 @@ mindmap
     房子 emoji 👉 🏠
 ```
 
-## 13. 📒 notes - 样式语法 - `:::className` - 注：不好使
+## 13. 📒 样式语法 - `:::className` - 注：不好使
 
 - 和 icon 一样，需要站点集成，才能正常渲染。
 
@@ -344,7 +344,7 @@ mindmap
         C
 ```
 
-## 14. 📒 notes - Markdown Strings 特性
+## 14. 📒 Markdown Strings 特性
 
 - “Markdown Strings”特性，该特性增强了思维导图的功能，支持更多的文本格式选项，并且能够自动换行。
 - Markdown Strings 特性
