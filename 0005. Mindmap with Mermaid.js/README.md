@@ -1,11 +1,30 @@
 # [0005. Mindmap with Mermaid.js](https://github.com/Tdahuyou/markdown/tree/main/0005.%20Mindmap%20with%20Mermaid.js)
 
-- 📝 summary
+
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📒 notes - 缩进语法](#3--notes---缩进语法)
+- [4. 📒 notes - 节点形状 - 默认形状节点](#4--notes---节点形状---默认形状节点)
+- [5. 📒 notes - 节点形状 - 矩形节点](#5--notes---节点形状---矩形节点)
+- [6. 📒 notes - 节点形状 - 圆角矩形节点](#6--notes---节点形状---圆角矩形节点)
+- [7. 📒 notes - 节点形状 - 圆形节点](#7--notes---节点形状---圆形节点)
+- [8. 📒 notes - 节点形状 - 爆炸 💥 节点](#8--notes---节点形状---爆炸--节点)
+- [9. 📒 notes - 节点形状 - 云朵 ☁️ 节点](#9--notes---节点形状---云朵-☁-节点)
+- [10. 📒 notes - 节点形状 - 六角形节点](#10--notes---节点形状---六角形节点)
+- [11. 📒 notes - 图标语法 - `::icon()` - 注：不好使](#11--notes---图标语法---icon()---注不好使)
+- [12. 📒 notes - 图标的替代方案 - 使用 emoji](#12--notes---图标的替代方案---使用-emoji)
+- [13. 📒 notes - 样式语法 - `:::className` - 注：不好使](#13--notes---样式语法---classname---注不好使)
+- [14. 📒 notes - Markdown Strings 特性](#14--notes---markdown-strings-特性)
+- [15. 💻 demo - 绘制思维导图测试](#15--demo---绘制思维导图测试)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
    - 该笔记提供了 mermaid 思维导图的语法、缩进规则和节点形状，涵盖了如何通过不同的缩进表示层次关系及自定义节点形状（如矩形、圆形、云朵等）。
    - 补充了图标和样式的用法，但因集成限制，该功能效果不稳定，推荐使用 emoji 作为替代。
    - Markdown Strings 特性使得节点支持格式化文本及多行显示，进一步增强了思维导图的表现力。
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://www.youtube.com/watch?v=dF9FAg73pQI
   - YouTube - Mindmap with Mermaid.js
@@ -20,7 +39,7 @@
 - https://pictogrammers.com/library/mdi/
   - Material Design Icons 图标库
 
-## 📒 notes - 缩进语法
+## 3. 📒 notes - 缩进语法
 
 - 缩进语法
 
@@ -136,7 +155,7 @@ mindmap
 ```
 
 
-## 📒 notes - 节点形状 - 默认形状节点
+## 4. 📒 notes - 节点形状 - 默认形状节点
 
 ```
 mindmap
@@ -147,7 +166,7 @@ mindmap
   I am the default shape
 ```
 
-## 📒 notes - 节点形状 - 矩形节点
+## 5. 📒 notes - 节点形状 - 矩形节点
 
 ```
 mindmap
@@ -170,7 +189,7 @@ mindmap
   [I am a square]
 ```
 
-## 📒 notes - 节点形状 - 圆角矩形节点
+## 6. 📒 notes - 节点形状 - 圆角矩形节点
 
 ```
 mindmap
@@ -181,7 +200,7 @@ mindmap
   (I am a rounded square)
 ```
 
-## 📒 notes - 节点形状 - 圆形节点
+## 7. 📒 notes - 节点形状 - 圆形节点
 
 ```
 mindmap
@@ -192,7 +211,7 @@ mindmap
   ((I am a circle))
 ```
 
-## 📒 notes - 节点形状 - 爆炸 💥 节点
+## 8. 📒 notes - 节点形状 - 爆炸 💥 节点
 
 ```
 mindmap
@@ -203,7 +222,7 @@ mindmap
   ))I am a bang((
 ```
 
-## 📒 notes - 节点形状 - 云朵 ☁️ 节点
+## 9. 📒 notes - 节点形状 - 云朵 ☁️ 节点
 
 ```
 mindmap
@@ -214,7 +233,7 @@ mindmap
   )I am a cloud(
 ```
 
-## 📒 notes - 节点形状 - 六角形节点
+## 10. 📒 notes - 节点形状 - 六角形节点
 
 ```
 mindmap
@@ -225,7 +244,7 @@ mindmap
   {{I am a hexagon}}
 ```
 
-## 📒 notes - 图标语法 - `::icon()` - 注：不好使
+## 11. 📒 notes - 图标语法 - `::icon()` - 注：不好使
 
 > As with flowcharts you can add icons to your nodes but with an updated syntax. The styling for the font based icons are added during the integration so that they are available for the web page. This is not something a diagram author can do but has to be done with the site administrator or the integrator. Once the icon fonts are in place you add them to the mind map nodes using the ::icon() syntax. You place the classes for the icon within the parenthesis like in the following example where icons for material design and Font Awesome 5 are displayed. The intention is that this approach should be used for all diagrams supporting icons. Experimental feature: This wider scope is also the reason Mindmaps are experimental as this syntax and approach could change.
 > from: mermaid 官方文档。
@@ -291,7 +310,7 @@ mindmap
     ::icon(mdi mdi-skull-outline)
 ```
 
-## 📒 notes - 图标的替代方案 - 使用 emoji
+## 12. 📒 notes - 图标的替代方案 - 使用 emoji
 
 ```
 mindmap
@@ -304,7 +323,7 @@ mindmap
     房子 emoji 👉 🏠
 ```
 
-## 📒 notes - 样式语法 - `:::className` - 注：不好使
+## 13. 📒 notes - 样式语法 - `:::className` - 注：不好使
 
 - 和 icon 一样，需要站点集成，才能正常渲染。
 
@@ -325,7 +344,7 @@ mindmap
         C
 ```
 
-## 📒 notes - Markdown Strings 特性
+## 14. 📒 notes - Markdown Strings 特性
 
 - “Markdown Strings”特性，该特性增强了思维导图的功能，支持更多的文本格式选项，并且能够自动换行。
 - Markdown Strings 特性
@@ -362,7 +381,7 @@ Unicode works too: 🤓`"]
     - 普通标签：传统的标签仍然有效，不包含任何 Markdown 格式。
   - 注：上述 id1、id2、id3 仅仅是为了方便笔记记录，方便标注说明。即便删除 id1、id2、id3 它们，渲染结果依旧保持不变。
 
-## 💻 demo - 绘制思维导图测试
+## 15. 💻 demo - 绘制思维导图测试
 
 - 官方示例 1
 

@@ -1,9 +1,20 @@
 # [0001. Writing on GitHub](https://github.com/Tdahuyou/markdown/tree/main/0001.%20Writing%20on%20GitHub)
 
-- 📝 summary
+
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📒 notes - github 对传统的 markdown 做了一些扩展](#3--notes---github-对传统的-markdown-做了一些扩展)
+- [4. 💻 demo - Using emojis](#4--demo---using-emojis)
+- [5. 💻 demo - Alerts](#5--demo---alerts)
+- [6. 🤖 AI - `- https://docs.github.com/en/get-started/writing-on-github`](#6--ai-----https//docsgithubcom/en/get-started/writing-on-github)
+  - [6.1. 主要内容包括：](#61-主要内容包括)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
   - GitHub 对 Markdown 进行了扩展，有些写法是 GitHub 上特定支持的，在本地编写 markdown 时也许看不到效果。
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://docs.github.com/en/get-started/writing-on-github
   - Writing on GitHub
@@ -13,7 +24,7 @@
     - sophisticated adj. 复杂的
     - prose n. 乏味的话；adj. 单调的，乏味的
 
-## 📒 notes - github 对传统的 markdown 做了一些扩展
+## 3. 📒 notes - github 对传统的 markdown 做了一些扩展
 
 - 以本节的俩 demo 为例，如果在本地展示的话，效果如下：
   - ![](md-imgs/2024-10-16-15-20-36.png)
@@ -21,11 +32,11 @@
 - 如果上传到 github 上，展示效果如下：
   - ![](md-imgs/2024-10-16-15-19-48.png)
 
-## 💻 demo - Using emojis
+## 4. 💻 demo - Using emojis
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-## 💻 demo - Alerts
+## 5. 💻 demo - Alerts
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -42,7 +53,7 @@
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-## 🤖 AI - `- https://docs.github.com/en/get-started/writing-on-github`
+## 6. 🤖 AI - `- https://docs.github.com/en/get-started/writing-on-github`
 
 ```
 - https://docs.github.com/en/get-started/writing-on-github
@@ -54,7 +65,7 @@
 
 是的，我了解 GitHub 提供的文档编写功能。GitHub 不仅是一个代码托管平台，它还提供了一套强大的工具来帮助用户编写和格式化文档。在你提到的链接 [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) 中，GitHub 官方文档详细介绍了如何使用 Markdown 以及其他一些特性来编写内容。
 
-### 主要内容包括：
+### 6.1. 主要内容包括：
 
 1. **Markdown 基础**:
    - GitHub 支持标准的 Markdown 语法，允许用户创建结构化的文本，如标题、列表、链接、图片等。
