@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=markdown",
+        "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=markdown",
+        "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=markdown",
+        "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=markdown"
+    }
+}
