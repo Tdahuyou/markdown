@@ -26,7 +26,7 @@
   
   - [1. 🔗 Writing on GitHub](https://github.com/Tdahuyou/markdown/tree/main/0002.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E7%BC%96%E5%86%99%E5%86%85%E8%81%94%E5%85%AC%E5%BC%8F%E9%9C%80%E8%A6%81%E5%92%8C%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6%E5%8C%BA%E5%88%86%E5%BC%80/README.md#1--writing-on-github)
   - [2. 📒 公式在 GitHub 上无法正常渲染的情况](https://github.com/Tdahuyou/markdown/tree/main/0002.%20%E5%9C%A8%20GitHub%20%E4%B8%8A%E7%BC%96%E5%86%99%E5%86%85%E8%81%94%E5%85%AC%E5%BC%8F%E9%9C%80%E8%A6%81%E5%92%8C%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6%E5%8C%BA%E5%88%86%E5%BC%80/README.md#2--公式在-github-上无法正常渲染的情况)
-  - 该笔记记录了在 GitHub 上渲染数学公式的一个注意事项 ——
+  - 该笔记记录了在 GitHub 上渲染数学公式的一个注意事项。
     - 如果你在使用 Latex 格式来书写内联公式，那么可以使用 `$` 来包裹公式。但是需要注意的是，在 GitHub 上如果要正常渲染，需要确保 `$` 和中文字符区分开，即 —— 加空格。
   
 
@@ -34,12 +34,15 @@
 
 - [ ] [0003. mermaid 概述](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md) <!-- [locale](./0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md) -->  
   
-  - [1. 📝 summary](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#1--summary)
-  - [2. 🔗 links](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#2--links)
-  - [3. 📒 认识 mermaid](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#3--认识-mermaid)
-  - [4. 📒 npm 包](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#4--npm-包)
-  - [5. 📒 notes - CLI 工具](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#5--notes---cli-工具)
-  - [6. 💻 demo - 在网页中引入 mermaid](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#6--demo---在网页中引入-mermaid)
+  - [1. 🔗 github mermaid.js 源码仓库](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#1--github-mermaidjs-源码仓库)
+  - [2. 📒 认识 mermaid](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#2--认识-mermaid)
+  - [3. 📒 npm 包](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#3--npm-包)
+  - [4. 📒 CLI 工具](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#4--cli-工具)
+  - [5. 💻 demos.1 - 在网页中引入 mermaid](https://github.com/Tdahuyou/markdown/tree/main/0003.%20mermaid%20%E6%A6%82%E8%BF%B0/README.md#5--demos1---在网页中引入-mermaid)
+  - 这篇笔记对 mermaid 做了一个简单的介绍，并在 markdown 中使用 mermaid 绘制了几张图，需要知道在 markdown 中，我们是可以通过 mermaid 语法来实现文本绘图的，在必要的时候，可以直接在自己的 markdown 文档中手写图表。
+    - Mermaid 是一个用 JavaScript 编写的库，允许通过简单的文本语法生成多种图表（如流程图、甘特图、类图等）。
+    - 它可集成于 Markdown、GitHub、GitLab、Confluence 等平台，且支持 CLI 工具将图表导出为图片文件。
+    - 可通过 npm 安装到 Node.js 项目中，或直接嵌入网页以便实时渲染图表。
   
 
 - [ ] [0004. mermaid 相关链接](https://github.com/Tdahuyou/markdown/tree/main/0004.%20mermaid%20%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/README.md) <!-- [locale](./0004.%20mermaid%20%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/README.md) -->  
