@@ -2,19 +2,18 @@
 
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📒 notes - 公式在 GitHub 上无法正常渲染的情况](#3--notes---公式在-github-上无法正常渲染的情况)
+- [1. 🔗 Writing on GitHub](#1--writing-on-github)
+- [2. 📒 公式在 GitHub 上无法正常渲染的情况](#2--公式在-github-上无法正常渲染的情况)
 <!-- endregion:toc -->
 - 该笔记记录了在 GitHub 上渲染数学公式的一个注意事项 ——
   - 如果你在使用 Latex 格式来书写内联公式，那么可以使用 `$` 来包裹公式。但是需要注意的是，在 GitHub 上如果要正常渲染，需要确保 `$` 和中文字符区分开，即 —— 加空格。
 
-## 2. 🔗 Writing on GitHub
+## 1. 🔗 Writing on GitHub
 
 - https://docs.github.com/zh/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
   - GitHub doc - 编写数学表达式 - 使用 Markdown 在 GitHub 上显示数学表达式。
 
-## 3. 📒 公式在 GitHub 上无法正常渲染的情况
+## 2. 📒 公式在 GitHub 上无法正常渲染的情况
 
 - 如果你在使用 Latex 格式来书写内联公式，那么可以使用 `$` 来包裹公式。但是需要注意的是，在 GitHub 上如果要正常渲染，需要确保 `$` 和中文字符区分开，即 —— 加空格。
 
